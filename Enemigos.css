@@ -1,0 +1,22 @@
+.contenedor1{
+    display: flex;
+    align-items: center;
+}
+
+#enemigo1{
+    width: 20%; height: 18%;
+    margin-left: 20vw; margin-top: 10%;
+}
+#txtEnemigo1{
+    margin-left: 5%; margin-top: 10%;
+    text-align: justify;
+    color: rgb(27, 27, 27);
+    font-size: large;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+#enemigo2{
+    width: 12%; height: 8%;
+    margin-left: 60vw; margin-top: 10vh;
+}
