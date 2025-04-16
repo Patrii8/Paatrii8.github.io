@@ -1,0 +1,37 @@
+.cabecera{
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 5px var(--secondary-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 100;
+}
+.barraNavegacion{
+    max-width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+}
+nav ul {
+    height: 50px;
+    display: flex;
+    list-style: none;
+    padding: 0; 
+}
+nav li{
+    padding: 0 5%;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+a {
+    
+    text-decoration: none;
+    color: rgb(59, 21, 40);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+a:hover{
+    text-decoration: underline;
+}
