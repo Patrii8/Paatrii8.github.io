@@ -1,3 +1,4 @@
+
 .contenedor1{
     display: flex;
     align-items: center;
@@ -18,5 +19,5 @@
 }
 #enemigo2{
     width: 12%; height: 8%;
-    margin-left: 60vw; margin-top: 10vh;
+    margin-left: 50vw; margin-top: 10vh;
 }

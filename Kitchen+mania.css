@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(255, 144, 199);
+    --secondary-color: rgb(172, 62, 104);
+    --tercer-color:  rgb(255, 222, 240);
+}
+html {
+    scroll-behavior: smooth; /*???????????????????????????????????*/
+}
+body{
+    background-image: url('TESTEO/doodleTESTEO.jpg')
+}
+main{
+    display: flex;
+}
+section[id] {
+    scroll-margin-top: 110px;
+}
+.text {
+    margin-left: 25%; margin-right: 40%;
+    text-align: justify;
+    color: rgb(27, 27, 27);
+    font-size: large;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.titulo{    /*KITCHEN MANIA*/
+    margin-left: 5vw; margin-right: 15vw;
+    text-align: center;
+    font-size: 700%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.titulo2{ /*RECETAS, ENEMIGOS, SOBRE NOSOTROS*/
+    margin-left: 20vw; margin-right: 32vw;
+    text-align: justify;
+    font-size: 400%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#fotito{ /*IMAGEN PRINCIPAL*/
+    width:98vw; height:40;
+    display: block;
+    margin: auto; margin-top: 6%;
+}
+#principal{ /*PARTE DEL MAIN CON EL TEXTO PRINCIPAL*/
+    width: 85%;
+}
+/*SOBRE NOSOTROS*/
+#SobreNosotros{
+    margin-bottom: 10%;
+}
+/*PIE DE INFORMACIÓN*/
+footer{
+    background-color: var(--primary-color);
+    height: 10vh;
+    box-shadow: 0 -12px 10px var(--primary-color);
+}
+#pie{
+    display: flex;
+}
+#txtRedesSociales{
+    text-align: left;
+
+}
+#Logos{
+    width: 5%; height: 4%;
+    margin: 2vh auto;
+}
