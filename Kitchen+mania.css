@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(255, 144, 199);
     --secondary-color: rgb(172, 62, 104);
-    --tercer-color:  rgb(255, 222, 240);
+    /*--tercer-color:  rgb(255, 222, 240);*/
 }
 html {
     scroll-behavior: smooth; /*???????????????????????????????????*/
@@ -16,7 +16,7 @@ section[id] {
     scroll-margin-top: 110px;
 }
 .text {
-    margin-left: 25%; margin-right: 40%;
+    margin-left: 24%; margin-right: 30%;
     text-align: justify;
     color: rgb(27, 27, 27);
     font-size: large;
@@ -46,6 +46,12 @@ section[id] {
 /*SOBRE NOSOTROS*/
 #SobreNosotros{
     margin-bottom: 10%;
+}
+/*DISCLAMER*/
+#disclamer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
 }
 /*PIE DE INFORMACIÓN*/
 footer{
