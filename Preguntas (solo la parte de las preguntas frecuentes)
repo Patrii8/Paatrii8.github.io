@@ -1,0 +1,30 @@
+<section id="preguntas frecuentes">
+                <div class="container">
+                    <div class="row">
+                        <div class="container-preguntas">
+                            <div class="title-preguntas">
+                                <h3>Preguntas Frecuentes</h3>
+                            </div>
+                            <div class="item-preguntas">
+                                <div class="pregunta">
+                                    <h3> Pregunta1? <span>Q</span></h3>
+                                    <div class="more"><i>+</i></div>
+                                </div>
+                                <div class="respuesta">
+                                    <p>erkg rfffjfffff ffffffffff ffffffffffffffffffffffffggggggggg gfyryhfvfffffffffffffffffffffffffffffffffffffff <span>A</span></p>
+                                </div>
+                            </div>
+                            <div class="item-preguntas">
+                                <div class="pregunta">
+                                    <h3> Pregunta2? <span>Q</span></h3>
+                                    <div class="more"><i>+</i></div>
+                                </div>
+                                <div class="respuesta">
+                                    <p>wohfrwrfrw <span>A</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   
+            </section>
