@@ -17,7 +17,7 @@ section[id] {
     scroll-margin-top: 110px;
 }
 .text {
-    margin-left: 24%; margin-right: 30%;
+    margin-left: 18%; margin-right: 18%;
     text-align: justify;
     color: rgb(27, 27, 27);
     font-size: large;
@@ -25,14 +25,13 @@ section[id] {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .titulo{    /*KITCHEN MANIA*/
-    margin-left: 5vw; margin-right: 15vw;
     text-align: center;
     font-size: 700%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .titulo2{ /*RECETAS, ENEMIGOS, SOBRE NOSOTROS*/
-    margin-left: 20vw; margin-right: 32vw;
-    text-align: justify;
+    margin-left: 18%;
+    text-align:left;
     font-size: 400%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
