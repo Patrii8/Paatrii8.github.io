@@ -60,13 +60,17 @@ footer{
     box-shadow: 0 -12px 10px var(--primary-color);
 }
 #pie{
-    display: flex;
+    align-items: center;
+    margin-top: 2%;
 }
 #txtRedesSociales{
     text-align: left;
-
+    
 }
-#Logos{
-    width: 5%; height: 4%;
-    margin: 2vh auto;
+#Logo1{
+    width: 4vw; height: 4vw;
+    padding: 0 2%;
+}
+#Logo2{
+    width: 3.8vw; height: 3.8vw;
 }
