@@ -28,8 +28,3 @@ for(let i = 0; i < btnDropdown.length;i++){
         }
     })
 }
-window.scroll({
-    top: 2500,
-    left: 0,
-    behavior: 'smooth'
-  });

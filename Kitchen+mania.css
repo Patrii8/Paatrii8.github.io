@@ -2,10 +2,13 @@
     --primary-color: rgb(255, 144, 199);
     --secondary-color: rgb(172, 62, 104);
     --tercer-color: rgb(246, 176, 203);
-
 }
-html {
-    scroll-behavior: smooth; /*???????????????????????????????????*/
+@font-face {
+    font-family: 'FuenteKitchenMania';
+    src: url(FUENTEkitchenMania.otf) format('opentype');
+}
+*,html {
+    scroll-behavior: smooth!important;
 }
 body{
     background-image: url('IMÁGENES/FondoGris.jpeg')
@@ -26,8 +29,13 @@ section[id] {
 }
 .titulo{    /*KITCHEN MANIA*/
     text-align: center;
-    font-size: 700%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 900%;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:var(--secondary-color);
+    color: transparent;
+    font-family: 'FuenteKitchenMania'
 }
 .titulo2{ /*RECETAS, ENEMIGOS, SOBRE NOSOTROS*/
     margin-left: 18%;
@@ -43,16 +51,19 @@ section[id] {
 #principal{ /*PARTE DEL MAIN CON EL TEXTO PRINCIPAL*/
     width: 85%;
 }
+
 /*SOBRE NOSOTROS*/
 #SobreNosotros{
     margin-bottom: 10%;
 }
+
 /*DISCLAMER*/
 #disclamer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-bottom: 3%;
 }
+
 /*PIE DE INFORMACIÓN*/
 footer{
     background-color: var(--primary-color);
