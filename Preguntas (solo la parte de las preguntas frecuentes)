@@ -7,7 +7,7 @@
                             </div>
                             <div class="item-preguntas">
                                 <div class="pregunta">
-                                    <h3> 1.	¿El juego tendrá una duración limitada o será infinito? <span>Q</span></h3>
+                                    <h3> 1.¿El juego tendrá una duración limitada o será infinito? <span>Q</span></h3>
                                     <div class="more"><i>+</i></div>
                                 </div>
                                 <div class="respuesta">
@@ -16,7 +16,7 @@
                             </div>
                             <div class="item-preguntas">
                                 <div class="pregunta">
-                                    <h3> 2.	¿Existe la customización dentro del juego? <span>Q</span></h3>
+                                    <h3> 2.¿Existe la customización dentro del juego? <span>Q</span></h3>
                                     <div class="more"><i>+</i></div>
                                 </div>
                                 <div class="respuesta">
@@ -25,7 +25,25 @@
                             </div>
                             <div class="item-preguntas">
                                 <div class="pregunta">
-                                    <h3> 3.	¿Habrá recetas exóticas propias de algunos países dentro del juego? <span>Q</span></h3>
+                                    <h3> 3.¿Habrá recetas exóticas propias de algunos países dentro del juego? <span>Q</span></h3>
+                                    <div class="more"><i>+</i></div>
+                                </div>
+                                <div class="respuesta">
+                                    <p> <span>A</span></p>
+                                </div>
+                            </div>
+                            <div class="item-preguntas">
+                                <div class="pregunta">
+                                    <h3> 4.¿La entrega de los paquetes de contribución llegará a todos los países? <span>Q</span></h3>
+                                    <div class="more"><i>+</i></div>
+                                </div>
+                                <div class="respuesta">
+                                    <p> <span>A</span></p>
+                                </div>
+                            </div>
+                            <div class="item-preguntas">
+                                <div class="pregunta">
+                                    <h3> 5.¿Se sabe una fecha aproximada para el lanzamiento del juego? <span>Q</span></h3>
                                     <div class="more"><i>+</i></div>
                                 </div>
                                 <div class="respuesta">
