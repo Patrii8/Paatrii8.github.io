@@ -1,30 +1,19 @@
-let question = document.querySelectorAll('.pregunta');
+document.addEventListener('DOMContentLoaded', () => {
+    let preguntas = document.querySelectorAll('.item-preguntas');
 
-let btnDropdown = document.querySelectorAll('.pregunta .more');
+    preguntas.forEach(pregunta => {
+        let boton = pregunta.querySelector('.more');
+        let respuesta = pregunta.querySelector('.respuesta');
+        let parrafo = respuesta.querySelector('p');
 
-let answer = document.querySelectorAll('.respuesta');
-
-let parrafo = document.querySelectorAll('.respuesta p');
-
-for(let i = 0; i < btnDropdown.length;i++){
-    let altoParrafo=parrafo[i].clientHeight;
-    let switchc = 0;
-
-    btnDropdown[i].addEventListener('click',() =>{
-
-        if(switchc==0){
-
-            answer[i].style.height=`${1.5*altoParrafo}px`;
-            question[i].style.marginBottom='10px';
-            btnDropdown[i].innerHTML = '<i>-</i>';
-            switchc++;
-        }
-        else if(switchc == 1){
-
-            answer[i].style.height=`0`;
-            question[i].style.marginBottom='0';
-            btnDropdown[i].innerHTML='<i>+</i>';
-            switchc --;
-        }
-    })
-}
+        boton.addEventListener('click', () => {
+            if (respuesta.style.height === '0px' || !respuesta.style.height) {
+                respuesta.style.height = `${parrafo.scrollHeight}px`;
+                boton.innerHTML = '<i>-</i>';
+            } else {
+                respuesta.style.height = '0px';
+                boton.innerHTML = '<i>+</i>';
+            }
+        });
+    });
+});
