@@ -10,7 +10,7 @@
     height: 80vh; width: 18vh;
     border-radius: 15px;
     box-shadow: 0 4px 5px var(--secondary-color);
-    margin-top: 400%;
+    margin-top: 450%;
     position: sticky;
     top: 15%;
 }
@@ -19,4 +19,10 @@
 }
 #imgdelantal{
     width: 50%;
+}
+#imgEspatula{
+    width: 30%;
+}
+#imgSarten{
+    width: 60%;
 }

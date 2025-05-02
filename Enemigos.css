@@ -2,29 +2,43 @@
 .contenedor1{
     display: flex;
     align-items: center;
+    background-color: var(--tercer-color);
+    max-width: 1000px;
+    margin: 4% 20%;
 }
 
 #enemigo1{
-    width: 12vw; height: 18%;
-    margin-left: 20vw; margin-top: 10%;
+    width: 10vw;
+    margin-left: 5vw;
 }
 #txtEnemigo1{
-    margin-left: 2%; margin-right: 16%; margin-top: 10%;
+    margin-left: 2%; margin-right: 21%;
+    padding: 2%;
     text-align: justify;
     color: rgb(27, 27, 27);
+
     font-size: large;
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
+.contenedor2{
+    display: flex;
+    align-items: center;
+    background-color: var(--tercer-color);
+    max-width: 1000px;
+    margin: 4% 20%;
+}
 #enemigo2{
-    width: 15vw; height: 8%;
-    margin-left: 5vw; margin-top: 10vh;
+    width: 13vw;
+    margin-left: 2vw; margin-top: 10vh;
 }
 #txtEnemigo2{
-    margin-left: 30%; margin-top: 10%;
+    margin-left: 23%; margin-top: 5%;
+    padding: 2%;
     text-align: justify;
     color: rgb(27, 27, 27);
+    background-color: var(--tercer-color);
     font-size: large;
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
