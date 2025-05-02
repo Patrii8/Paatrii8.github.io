@@ -9,14 +9,12 @@
 
 #enemigo1{
     width: 10vw;
-    margin-left: 5vw;
+    margin-left: 5vw; margin-right: 2VW;
 }
 #txtEnemigo1{
-    margin-left: 2%; margin-right: 21%;
+    margin-right: 15%; margin-bottom: 6%;
     padding: 2%;
-    text-align: justify;
-    color: rgb(27, 27, 27);
-
+    text-align: left;
     font-size: large;
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -31,14 +29,12 @@
 }
 #enemigo2{
     width: 13vw;
-    margin-left: 2vw; margin-top: 10vh;
+    margin-left: 2vw; margin-right: 2VW;
 }
 #txtEnemigo2{
-    margin-left: 23%; margin-top: 5%;
+    margin-left: 15%; margin-bottom: 6%;
     padding: 2%;
-    text-align: justify;
-    color: rgb(27, 27, 27);
-    background-color: var(--tercer-color);
+    text-align: right;
     font-size: large;
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif

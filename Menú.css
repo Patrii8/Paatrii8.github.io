@@ -22,12 +22,11 @@ nav ul {
 nav li{
     padding: 0 5%;
     text-align: center;
-    line-height: 50px;
+    line-height: 160%;
     font-weight: 400;
 }
 
 a {
-    
     text-decoration: none;
     color: rgb(59, 21, 40);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif

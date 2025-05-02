@@ -45,9 +45,9 @@ section[id] {
     font-family: 'FuenteKitchenMania'
 }
 #fotito{ /*IMAGEN PRINCIPAL*/
-    width:98vw; height:40;
+    width:100%;
     display: block;
-    margin: auto; margin-top: 6%;
+    margin-top: 8.5vh;
     box-shadow: 0 15px 13px var(--secondary-color);
 }
 #principal{ /*PARTE DEL MAIN CON EL TEXTO PRINCIPAL*/
@@ -62,6 +62,7 @@ section[id] {
 /*DISCLAMER*/
 #disclamer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90%;
     text-align: center;
     margin-bottom: 3%;
 }
