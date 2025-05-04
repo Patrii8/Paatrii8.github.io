@@ -9,7 +9,7 @@
     height: 80vh; width: 18vh;
     border-radius: 15px;
     box-shadow: 0 4px 5px var(--secondary-color);
-    margin-top: 500%;
+    margin-top: 100%;
     position: sticky;
     top: 15%;
 }

@@ -68,18 +68,15 @@ section[id] {
 }
 
 /*PIE DE INFORMACIÓN*/
+
 footer{
-    background-color: var(--primary-color);
-    height: 10vh;
-    /*box-shadow: 0 -12px 10px var(--primary-color);*/
+    
 }
 #pie{
+    background-color: var(--primary-color);
+    width:100vw;
     display: flex;
     align-items: center;
-    margin: 0 10%;
-}
-#txtRedesSociales{
-    text-align: left;
 }
 #Logo1{
     width: 4vw; height: 4vw;
@@ -88,13 +85,15 @@ footer{
     width: 3.8vw; height: 3.8vw;
 }
 #Empresa{
+    margin-top: 10px;
     display: flex;
 }
 #LogoEmpresa{
-    width: 18%;
+    margin-top: 2vh;
+    width: 10vw;
 }
 #NombreEmpresa{
-    line-height: 100px;
+    margin-top: 4vh;
     font-family: 'FuenteKitchenMania';
-    font-size: 220%;
+    font-size: 5vh;
 }
