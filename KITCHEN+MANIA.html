@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="Kitchen+mania.css" type="text/css" >
     <link rel="stylesheet" href="Enemigos.css" type="text/css" >
+    <link rel="stylesheet" href="Armas.css" type="text/css" >
     <link rel="stylesheet" href="Recetas.css" type="text/css" >
     <link rel="Stylesheet" href="Menú.css" type="text/css">
     <link rel="Stylesheet" href="PanelPatreon.css" type="text/css">
@@ -10,8 +11,6 @@
     <script src="./scripts.js"></script>
     <meta charset="UTF-8">
     <title>Kitchen Mania</title>
-    
-
 
     
 </head>
@@ -21,7 +20,8 @@
         <nav class="barraNavegacion">
             <ul>
                 <li style="line-height: 300%;"><a href="#Informacion">INICIO</a></li>
-                <li><a href="#Platos"> PLATOS Y ENEMIGOS</a></li>
+                <li><a href="#Platos">PLATOS Y ENEMIGOS</a></li>
+                <li style="line-height: 300%;"><a href="#Informacion">ARMAS</a></li>
                 <li><a href="#SobreNosotros">SOBRE NOSOTROS</a></li>
                 <li><a href="#preguntas frecuentes">PREGUNTAS FRECUENTES</a></li>
             </ul>
@@ -39,28 +39,26 @@
                     Conviértete en el mejor cocinero venciendo a los ingredientes frescos y preparando las mejores recetas. Serás conocido en todo Foodfield City por tu maestría con la espátula. En cada receta tendrás que vértelas con malvados ingredientes, ¡consigue la mejor puntuación durante la batalla para un mejor resultado en tu plato!
                 </p>
             </section>
-
+            
             <section id="Platos">
                 <h1 class="titulo2">PLATOS</h1>
                 <p class="text">
                     Cocina las recetas predeterminadas o inventa tus propias creaciones. Sea como sea ¡dalo todo para obtener el mayor prestigio en la ciudad!
                 </p>
                 <div class="contenedor1">
-                    <img id="enemigo1" src="IMÁGENES/PLATOS/dango.png" title="Pan empanao"/>
+                    <img id="enemigo1" src="IMÁGENES/PLATOS/DANGOPlato.png" title="Pan empanao"/>
                     <div id="txtEnemigo1"><h2>Dango</h2>Estas dulces bolas de arroz glutinoso son toda una delicia, y más aún si son la creación del mejor chef de Foodfield City.</div>
                 </div>
-                       
                 <div class="contenedor2">
                     <div id="txtEnemigo2"><h2>Omelette</h2>Parece un plato fácil, pero hasta estos son desafiantes si no le pones suficiente empeño.</div>
-                    <img id="enemigo2" src="IMÁGENES/PLATOS/omelete.PNG" title="Pera depresiva"/>
+                    <img id="enemigo2" src="IMÁGENES/PLATOS/OMELETEPlato.PNG" title="Pera depresiva"/>
                 </div>
-                
                 <div class="contenedor1">
-                    <img id="enemigo1" src="IMÁGENES/PLATOS/sandwich.png" style="width: 13vw;" title="Huevo cascarrabias"/>
+                    <img id="enemigo1" src="IMÁGENES/PLATOS/SANDWICHPlato.png" style="width: 13vw;" title="Huevo cascarrabias"/>
                     <div id="txtEnemigo1"><h2>Sandwich</h2>¡El contraste entre lo salado y lo dulce de este plato es digno de la cocina gourmet!</div>
                 </div>
             </section>
-            
+
             <section id="Enemigos">
                 <h1 class="titulo2">ENEMIGOS</h1>
                 <p class="text">
@@ -102,6 +100,32 @@
                 </div>
         
             </section>
+
+            <section id="Armas">
+                <h1 class="titulo2">ARMAS</h1>
+                <p class="text">
+                    Desbloquea todos los utensilios de cocina y consigue derrotar a todos los enemigos...
+                </p>
+                <div class="todasArmas">
+                <div class="cont1">
+                    <img id="arma1" src="IMÁGENES/ARMAS/CUCHILLOArma.png" title="Arma1"/>
+                    <div id="txt1"><h2>Pan empanao</h2>Parece inovensiva, pero no te descuides o se chamuscará a propósito.</div>
+                </div>
+                <div class="cont1">
+                    <img id="arma1" src="IMÁGENES/ARMAS/ESPATULAArma.png" title="Arma2"/>
+                    <div id="txt1"><h2>Pan empanao</h2>Parece inovensiva, pero no te descuides o se chamuscará a propósito.</div>
+                </div>
+                <div class="cont1">
+                    <img id="arma1" src="IMÁGENES/ARMAS/MEZCLADORArma.png" title="Arma3"/>
+                    <div id="txt1"><h2>Pan empanao</h2>Parece inovensiva, pero no te descuides o se chamuscará a propósito.</div>
+                </div>
+                <div class="cont1">
+                    <img id="arma1" src="IMÁGENES/ARMAS/RALLADORArma.png" title="Arma3"/>
+                    <div id="txt1"><h2>Pan empanao</h2>Parece inovensiva, pero no te descuides o se chamuscará a propósito.</div>
+                </div>
+            </div>
+            </section>
+
             <section id="SobreNosotros">
                 <h1 class="titulo2">SOBRE NOSOTROS</h1>
                 <p class="text">
@@ -180,6 +204,20 @@
                     </section>  
             </section>
 
+            <section id="comentarios">
+                <h1 class="titulo2">Comentarios</h1>
+                <div class="comentarios-box">
+                    <div class="comentarios-lista" id="comentariosContainer"></div>
+                    <div class="comentarios-formulario">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" placeholder="Tu nombre"><br><br>
+                        <label for="comentario">Comentario:</label><br>
+                        <textarea id="comentario" rows="4" placeholder="Escribe tu comentario"></textarea><br><br>
+                        <button id="enviarComentario">Enviar comentario</button>
+                    </div>
+                </div>
+            </section>
+
             <section>
                 <p id="disclamer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio y no
                     representa un producto real. Práctica de Multimedia, 1º GDDV - Curso 24/25
@@ -217,7 +255,6 @@
     </main>
     <footer>
         <div id="pie">
-            <!--<p id="txtRedesSociales" class="text">Síguenos en nuestras redes sociales:</p>-->
             <a href="https://www.instagram.com/kitchen_mania_game/"><img id="Logo1" src="TESTEO/InstagramLogo.png" alt="Logo de instagram" title="logo de instagram"/></a>
             <a href="https://x.com/kitchenmania_?t=_kXESFF6RtbXg7KhQwu02A&s=08"><img id="Logo2" src="TESTEO/XLogo.png" style="border-radius: 25%;" alt="Logo de X" title="logo de X"/></a>
             <div id="Empresa"><img id="LogoEmpresa" src="IMÁGENES/LOGO.svg"/><p id="NombreEmpresa">Glitch Café</p></div>
@@ -225,4 +262,3 @@
     </footer>
 </body>
 </html>
-
