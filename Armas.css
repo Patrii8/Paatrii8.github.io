@@ -1,0 +1,33 @@
+.todasArmas{
+    display: flex;
+    align-items: center;
+    background-color: var(--tercer-color);
+    max-width: 1000px;
+
+    width: 80%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.cont1{
+    margin: 10px 20px;
+    box-shadow:0 4px 8px 0 lightpink, 0 6px 20px 0 black;
+    float:left;
+    width: 350px;
+}
+
+#arma1{
+    width:100%;
+    height:auto;
+}
+
+div.cont1:hover{
+    border:1px solid pink;
+    transform:rotate(-3deg);
+}
+
+div.txt1{
+    text-align:center;
+    text-shadow: 2px 2px 5px pink;
+    padding:10px;
+}

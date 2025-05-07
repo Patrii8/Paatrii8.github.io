@@ -1,30 +1,24 @@
-:root {
+:root{
     --primary-color: rgb(255, 144, 199);
     --secondary-color: rgb(172, 62, 104);
     --tercer-color: rgb(255, 195, 218);
 }
-
 @font-face {
     font-family: 'FuenteKitchenMania';
     src: url(FUENTEKitchenMania.otf) format('opentype');
 }
-
-*, html {
-    scroll-behavior: smooth !important;
+*,html {
+    scroll-behavior: smooth!important;
 }
-
-body {
-    background-image: url('IMÁGENES/FondoGris.jpeg');
+body{
+    background-image: url('IMÁGENES/FondoGris.jpeg')
 }
-
-main {
+main{
     display: flex;
 }
-
 section[id] {
     scroll-margin-top: 110px;
 }
-
 .text {
     margin-left: 18%;
     margin-right: 18%;
@@ -34,39 +28,35 @@ section[id] {
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.titulo {
+.titulo{    /*KITCHEN MANIA*/
     text-align: center;
     font-size: 1000%;
     font-weight: 900;
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--secondary-color);
+    -webkit-text-stroke-color:var(--secondary-color);
     color: transparent;
-    font-family: 'FuenteKitchenMania';
+    font-family: 'FuenteKitchenMania'
 }
-
-.titulo2 {
+.titulo2{ /*RECETAS, ENEMIGOS, SOBRE NOSOTROS*/
     margin-left: 18%;
-    text-align: left;
+    text-align:left;
     font-size: 500%;
-    font-family: 'FuenteKitchenMania';
+    font-family: 'FuenteKitchenMania'
 }
-
-#fotito {
-    width: 100%;
+#fotito{ /*IMAGEN PRINCIPAL*/
+    width:100%;
     display: block;
     margin-top: 8.5vh;
     box-shadow: 0 15px 13px var(--secondary-color);
 }
-
-#principal {
+#principal{ /*PARTE DEL MAIN CON EL TEXTO PRINCIPAL*/
     width: 85%;
 }
 
 /*SOBRE NOSOTROS*/
-#SobreNosotros {
+#SobreNosotros{
     margin-bottom: 10%;
 }
 
@@ -84,6 +74,10 @@ section[id] {
 }
 
 /*PIE DE INFORMACIÓN*/
+
+footer{
+    
+}
 #pie {
     background-color: var(--primary-color);
     width: 100%;
@@ -92,33 +86,26 @@ section[id] {
     align-items: center;
 }
 
-#Logo1 {
-    width: 4vw;
-    height: 4vw;
+#Logo1{
+    width: 4vw; height: 4vw;
 }
-
-#Logo2 {
-    width: 3.8vw;
-    height: 3.8vw;
+#Logo2{
+    width: 3.8vw; height: 3.8vw;
 }
-
-#Empresa {
+#Empresa{
     margin-top: 10px;
     display: flex;
 }
-
-#LogoEmpresa {
+#LogoEmpresa{
     margin-top: 2vh;
     width: 10vw;
 }
-
-#NombreEmpresa {
-    margin-top: 6vh;
+#NombreEmpresa{
+    margin-top: 5vh;
     font-family: 'FuenteKitchenMania';
     font-size: 5vh;
 }
 
-/* COMENTARIOS */
 #comentarios {
     width: 80%;
     margin: 100px auto 30px auto;
