@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'FuenteKitchenMania';
-    src: url(FUENTEKitchenMania.otf) format('opentype');
+    src: url(FUENTE/FUENTEKitchenMania.otf) format('opentype');
 }
 *,html {
     scroll-behavior: smooth!important;
@@ -106,10 +106,12 @@ footer{
     font-size: 5vh;
 }
 
+/*SECCIÓN DE COMENTARIOS*/
+
 #comentarios {
     width: 80%;
     margin: 100px auto 30px auto;
-    background-color: #ffc6dc;
+    background-color: var(--tercer-color);
     border-radius: 20px;
     padding: 40px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -140,7 +142,6 @@ footer{
 
 .comentarios-formulario button {
     background-color: var(--primary-color);
-    color: white;
     border: 2px solid var(--secondary-color);
     padding: 10px 25px;
     border-radius: 10px;
@@ -155,7 +156,6 @@ footer{
 }
 
 .comentarios-lista div {
-    background-color: white;
     padding: 12px 15px;
     border-radius: 10px;
     margin-bottom: 10px;

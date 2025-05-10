@@ -9,25 +9,26 @@
     padding: 30px;
 }
 
-.cont1{
+.contenedor3{
     margin: 10px 20px;
-    box-shadow:0 4px 8px 0 lightpink, 0 6px 20px 0 black;
+    box-shadow:0 4px 8px 0 var(--secondary-color), 0 6px 20px 0 var(--tercer-color);
     float:left;
     width: 350px;
 }
 
-#arma1{
+#arma{
     width:100%;
     height:auto;
 }
 
-div.cont1:hover{
+div.contenedor3:hover{
     border:1px solid pink;
     transform:rotate(-3deg);
 }
 
-div.txt1{
+#txtArma{
     text-align:center;
     text-shadow: 2px 2px 5px pink;
     padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
