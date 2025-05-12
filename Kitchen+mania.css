@@ -87,18 +87,22 @@ footer{
 }
 
 #Logo1{
+    margin-top: 10px;
     width: 4vw; height: 4vw;
 }
 #Logo2{
+    margin-top: 10px;
     width: 3.8vw; height: 3.8vw;
 }
 #Empresa{
     margin-top: 10px;
     display: flex;
+    align-items: center;
+
 }
 #LogoEmpresa{
-    margin-top: 2vh;
-    width: 10vw;
+    margin-left:30px;
+    width: 4.2vw; height: 3.4vw;
 }
 #NombreEmpresa{
     margin-top: 5vh;
