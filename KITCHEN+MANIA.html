@@ -108,7 +108,7 @@
             <section id="Armas">
                 <h1 class="titulo2">ARMAS</h1>
                 <p class="text">
-                    Desbloquea todos los utensilios de cocina y consigue derrotar a todos los enemigos con el más indicado.
+                    Desbloquea todos los utensilios de cocina y consigue derrotar a todos los enemigos...
                 </p>
                 <div class="todasArmas">
                 <div class="contenedor3">
@@ -210,17 +210,9 @@
 
             <section id="comentarios">
                 <h1 class="titulo2">Comentarios</h1>
-                <div class="comentarios-box">
-                    <div class="comentarios-lista" id="comentariosContainer"></div>
-                    <div class="comentarios-formulario">
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" id="nombre" placeholder="Tu nombre"><br><br>
-                        <label for="comentario">Comentario:</label><br>
-                        <textarea id="comentario" rows="4" placeholder="Escribe tu comentario"></textarea><br><br>
-                        <button id="enviarComentario">Enviar comentario</button>
-                    </div>
-                </div>
+                <div id="disqus_thread"></div>
             </section>
+            
 
             <section>
                 <p id="disclamer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio y no
@@ -264,5 +256,22 @@
             <div id="Empresa"><img id="LogoEmpresa" src="IMÁGENES/LOGO.png"/><p id="NombreEmpresa">Glitch Café</p></div>
         </div>
     </footer>
+    <script>
+        var disqus_config = function () {
+            this.page.url = window.location.href; // Usa la URL actual de la página
+            this.page.identifier = 'kitchenmania-home'; // Identificador único (puedes cambiarlo si usas distintas páginas con comentarios)
+        };
+    
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://kitchenmania.disqus.com/embed.js'; // ← Ya personalizado con tu subdominio
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    
+    <noscript>Por favor activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios proporcionados por Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//kitchenmania.disqus.com/count.js" async></script>
+   
 </body>
 </html>
