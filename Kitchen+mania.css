@@ -73,43 +73,6 @@ section[id] {
     color: rgb(59, 21, 40);
 }
 
-/*PIE DE INFORMACIÓN*/
-
-footer{
-    
-}
-#pie {
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-}
-
-#Logo1{
-    margin-top: 10px;
-    width: 4vw; height: 4vw;
-}
-#Logo2{
-    margin-top: 10px;
-    width: 3.8vw; height: 3.8vw;
-}
-#Empresa{
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-
-}
-#LogoEmpresa{
-    margin-left:30px;
-    width: 4.2vw; height: 3.4vw;
-}
-#NombreEmpresa{
-    margin-top: 5vh;
-    font-family: 'FuenteKitchenMania';
-    font-size: 5vh;
-}
-
 /*SECCIÓN DE COMENTARIOS*/
 
 #comentarios {
@@ -171,4 +134,39 @@ footer{
 
 .comentarios-lista strong {
     color: var(--secondary-color);
+}
+
+/*PIE DE INFORMACIÓN*/
+
+#pie {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#Logo1{
+    margin-top: 10px;
+    width: 4vw; height: 4vw;
+}
+#Logo2{
+    margin-top: 10px;
+    width: 3.8vw; height: 3.8vw;
+}
+#Empresa{
+    margin-left: 30%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+#LogoEmpresa{
+    margin-left:30px;
+    width: 4.2vw; height: 3.4vw;
+}
+#NombreEmpresa{
+    margin-top: 5vh;
+    font-family: 'FuenteKitchenMania';
+    font-size: 5vh;
 }
