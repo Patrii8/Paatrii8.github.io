@@ -47,6 +47,11 @@ section[id] {
     font-family: 'FuenteKitchenMania'
 }
 
+#video{
+    width: 60%;
+    margin: 10% 20%;
+}
+
 .titulo2 { /* RECETAS, ENEMIGOS, SOBRE NOSOTROS */
     margin-left: 18%;
     text-align: left;
@@ -54,20 +59,29 @@ section[id] {
     font-family: 'FuenteKitchenMania'
 }
 
-#fotito { /* IMAGEN PRINCIPAL */
+/* IMAGEN PRINCIPAL */
+
+#fotito { 
     width: 100%;
     display: block;
     margin-top: 8.5vh;
     box-shadow: 0 15px 13px var(--secondary-color);
 }
 
-#principal { /* PARTE DEL MAIN CON EL TEXTO PRINCIPAL */
+/* PARTE DEL MAIN CON EL TEXTO PRINCIPAL */
+
+#principal { 
     width: 85%;
 }
 
 /* SOBRE NOSOTROS */
 #SobreNosotros {
     margin-bottom: 10%;
+}
+
+#disqus_thread{
+    width: 70%;
+    margin: 10% 20%;
 }
 
 /* DISCLAMER */

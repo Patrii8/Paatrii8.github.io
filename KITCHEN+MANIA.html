@@ -38,6 +38,9 @@
                 <p class="text">
                     Conviértete en el mejor cocinero venciendo a los ingredientes frescos y preparando las mejores recetas. Serás conocido en todo Foodfield City por tu maestría con la espátula. En cada receta tendrás que vértelas con malvados ingredientes, ¡consigue la mejor puntuación durante la batalla para un mejor resultado en tu plato!
                 </p>
+
+                <video id="video" src="IMÁGENES/VideoTRAILER.MOV" controls></video>
+
             </section>
             
             <section id="Platos">
@@ -144,8 +147,6 @@
             </section>
 
             <section id="preguntas frecuentes">
-                    
-                    <section id="preguntas frecuentes">
                         <h1 class="titulo2">PREGUNTAS FRECUENTES</h1>
                         <div class="container">
                             <div class="row">
@@ -204,13 +205,28 @@
                                 </div>
                             </div>
                         </div>
-                           
-                    </section>  
             </section>
 
             <section id="comentarios">
-                <h1 class="titulo2">Comentarios</h1>
-                <div id="disqus_thread"></div>
+                <h1 class="titulo2">COMENTARIOS</h1>
+                <div id="disqus_thread">
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = window.location.href; // Usa la URL actual de la página
+                        this.page.identifier = 'kitchenmania-home'; // Identificador único (puedes cambiarlo si usas distintas páginas con comentarios)
+                    };
+                
+                    (function() {
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://kitchenmania.disqus.com/embed.js'; // ← Ya personalizado con tu subdominio
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+
+    <noscript>Por favor activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios proporcionados por Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//kitchenmania.disqus.com/count.js" async></script>
+</div>
             </section>
             
 
@@ -248,6 +264,8 @@
                     </div>
                 </div>
         </aside>
+
+           
     </main>
     <footer>
         <div id="pie">
@@ -256,22 +274,8 @@
             <div id="Empresa"><img id="LogoEmpresa" src="IMÁGENES/LOGO.png"/><p id="NombreEmpresa">Glitch Café</p></div>
         </div>
     </footer>
-    <script>
-        var disqus_config = function () {
-            this.page.url = window.location.href; // Usa la URL actual de la página
-            this.page.identifier = 'kitchenmania-home'; // Identificador único (puedes cambiarlo si usas distintas páginas con comentarios)
-        };
     
-        (function() {
-            var d = document, s = d.createElement('script');
-            s.src = 'https://kitchenmania.disqus.com/embed.js'; // ← Ya personalizado con tu subdominio
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
     
-    <noscript>Por favor activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios proporcionados por Disqus.</a></noscript>
-    <script id="dsq-count-scr" src="//kitchenmania.disqus.com/count.js" async></script>
-   
+    
 </body>
 </html>
